@@ -84,6 +84,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Personal Info" id="xxH-SS-2Ke"/>
+                    <connections>
+                        <outlet property="emailPerson" destination="jKZ-YG-QCf" id="blw-ve-ubn"/>
+                        <outlet property="phonePerson" destination="v1y-g8-5cJ" id="aKG-bf-ewj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vPk-DB-BO7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
